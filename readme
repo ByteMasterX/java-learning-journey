@@ -1,0 +1,104 @@
+Java Hello World Program - Line by Line Explanation
+===================================================
+
+Code:
+-----
+
+public class main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+Explanation:
+------------
+
+1. public class main
+
+- "public" means this class can be accessed from anywhere.
+- "class" is a keyword used to create a class in Java.
+- "main" is the name of the class.
+- Every Java program must have at least one class.
+
+--------------------------------------------------
+
+2. public static void main(String[] args)
+
+This is the main method of the program.
+
+Breakdown:
+
+- public
+  Means the method can be accessed from anywhere.
+
+- static
+  Means the method belongs to the class, not to an object.
+
+- void
+  Means this method does not return any value.
+
+- main
+  This is the entry point of the Java program.
+  The JVM starts execution from here.
+
+- String[] args
+  Used to receive command-line arguments.
+
+--------------------------------------------------
+
+3. System.out.println("Hello World");
+
+- System
+  A built-in Java class.
+
+- out
+  Standard output stream (console).
+
+- println
+  Prints text and moves the cursor to the next line.
+
+- "Hello World"
+  The text that will be displayed on the screen.
+
+--------------------------------------------------
+
+4. }
+
+Closing braces are used to end:
+- the main method
+- the class
+
+--------------------------------------------------
+
+Output:
+-------
+
+Hello World
+
+--------------------------------------------------
+
+How to Run:
+-----------
+
+Step 1:
+Save the file as:
+main.java
+
+Step 2:
+Open terminal in the folder.
+
+Step 3:
+Compile the program:
+
+javac main.java
+
+Step 4:
+Run the program:
+
+java main
+
+--------------------------------------------------
+
+Author:
+-------
+Vineet Kumar
